@@ -3,9 +3,9 @@
 //
 
 // GA library
-#import "GAITracker.h"
-#import "GAIDictionaryBuilder.h"
-#import "GAI.h"
+//#import "GAITracker.h"
+//#import "GAIDictionaryBuilder.h"
+//#import "GAI.h"
 
 // common header
 #import "KTEventHeader.h"

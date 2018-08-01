@@ -7,54 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		54987DB12111FBE900B3FC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DB02111FBE900B3FC54 /* AppDelegate.swift */; };
-		54987DB32111FBE900B3FC54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DB22111FBE900B3FC54 /* ViewController.swift */; };
 		54987DB62111FBE900B3FC54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB42111FBE900B3FC54 /* Main.storyboard */; };
 		54987DB82111FBE900B3FC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB72111FBE900B3FC54 /* Assets.xcassets */; };
 		54987DBB2111FBE900B3FC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB92111FBE900B3FC54 /* LaunchScreen.storyboard */; };
-		54987DC42111FC2100B3FC54 /* KTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DC32111FC2100B3FC54 /* KTLogger.swift */; };
-		54987DC82111FC7A00B3FC54 /* KTTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DC72111FC7A00B3FC54 /* KTTrackManager.m */; };
-		54987DCB2111FCD200B3FC54 /* KTTrackManager+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */; };
-		54987DD0211202E800B3FC54 /* KTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DCF211202E800B3FC54 /* KTLogger.m */; };
-		54987DE22112080500B3FC54 /* Changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54987DD52112080500B3FC54 /* Changelog.txt */; };
-		54987DE32112080500B3FC54 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987DE02112080500B3FC54 /* libAdIdAccess.a */; };
-		54987DE42112080500B3FC54 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */; };
-		54987DE821120B0000B3FC54 /* KTTrackGAEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */; };
-		54987DEA21120B2300B3FC54 /* KTTrackMixpanelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */; };
+		54987DF02112110600B3FC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DEC2112110600B3FC54 /* AppDelegate.swift */; };
+		54987DF12112110600B3FC54 /* KTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DED2112110600B3FC54 /* KTLogger.swift */; };
+		54987DF22112110600B3FC54 /* KTTrackGAEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DEE2112110600B3FC54 /* KTTrackGAEvent.swift */; };
+		54987DF32112110600B3FC54 /* KTTrackMixpanelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DEF2112110600B3FC54 /* KTTrackMixpanelEvent.swift */; };
+		54987DFA2112110D00B3FC54 /* KTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DF52112110D00B3FC54 /* KTLogger.m */; };
+		54987DFB2112110D00B3FC54 /* KTTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DF72112110D00B3FC54 /* KTTrackManager.m */; };
+		54987DFC2112110D00B3FC54 /* KTTrackManager+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DF92112110D00B3FC54 /* KTTrackManager+Private.m */; };
+		54987DFE2112112500B3FC54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DFD2112112500B3FC54 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54987DAD2111FBE900B3FC54 /* KTLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		54987DB02111FBE900B3FC54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		54987DB22111FBE900B3FC54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		54987DB52111FBE900B3FC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54987DB72111FBE900B3FC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54987DBA2111FBE900B3FC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54987DBC2111FBE900B3FC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54987DC32111FC2100B3FC54 /* KTLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTLogger.swift; sourceTree = "<group>"; };
 		54987DC52111FC7A00B3FC54 /* KTLogger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTLogger-Bridging-Header.h"; sourceTree = "<group>"; };
-		54987DC62111FC7A00B3FC54 /* KTTrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTrackManager.h; sourceTree = "<group>"; };
-		54987DC72111FC7A00B3FC54 /* KTTrackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTrackManager.m; sourceTree = "<group>"; };
-		54987DC92111FCD200B3FC54 /* KTTrackManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTTrackManager+Private.h"; sourceTree = "<group>"; };
-		54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTTrackManager+Private.m"; sourceTree = "<group>"; };
-		54987DCE211202E800B3FC54 /* KTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLogger.h; sourceTree = "<group>"; };
-		54987DCF211202E800B3FC54 /* KTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLogger.m; sourceTree = "<group>"; };
-		54987DD12112040F00B3FC54 /* KTEventHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTEventHeader.h; sourceTree = "<group>"; };
-		54987DD52112080500B3FC54 /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
-		54987DD62112080500B3FC54 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		54987DD72112080500B3FC54 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		54987DD82112080500B3FC54 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
-		54987DD92112080500B3FC54 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
-		54987DDA2112080500B3FC54 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
-		54987DDB2112080500B3FC54 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
-		54987DDC2112080500B3FC54 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		54987DDD2112080500B3FC54 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		54987DDE2112080500B3FC54 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		54987DDF2112080500B3FC54 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		54987DE02112080500B3FC54 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
-		54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTTrackGAEvent.swift; sourceTree = "<group>"; };
-		54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTTrackMixpanelEvent.swift; path = Classes/KTTrackMixpanelEvent.swift; sourceTree = "<group>"; };
+		54987DEB211210EE00B3FC54 /* KTEventHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = KTEventHeader.h; path = Classes/KTEventHeader.h; sourceTree = "<group>"; };
+		54987DEC2112110600B3FC54 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/swift/AppDelegate.swift; sourceTree = "<group>"; };
+		54987DED2112110600B3FC54 /* KTLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTLogger.swift; path = Classes/swift/KTLogger.swift; sourceTree = "<group>"; };
+		54987DEE2112110600B3FC54 /* KTTrackGAEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTTrackGAEvent.swift; path = Classes/swift/KTTrackGAEvent.swift; sourceTree = "<group>"; };
+		54987DEF2112110600B3FC54 /* KTTrackMixpanelEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTTrackMixpanelEvent.swift; path = Classes/swift/KTTrackMixpanelEvent.swift; sourceTree = "<group>"; };
+		54987DF42112110D00B3FC54 /* KTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTLogger.h; path = Classes/objC/KTLogger.h; sourceTree = "<group>"; };
+		54987DF52112110D00B3FC54 /* KTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTLogger.m; path = Classes/objC/KTLogger.m; sourceTree = "<group>"; };
+		54987DF62112110D00B3FC54 /* KTTrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KTTrackManager.h; path = Classes/objC/KTTrackManager.h; sourceTree = "<group>"; };
+		54987DF72112110D00B3FC54 /* KTTrackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KTTrackManager.m; path = Classes/objC/KTTrackManager.m; sourceTree = "<group>"; };
+		54987DF82112110D00B3FC54 /* KTTrackManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KTTrackManager+Private.h"; path = "Classes/objC/KTTrackManager+Private.h"; sourceTree = "<group>"; };
+		54987DF92112110D00B3FC54 /* KTTrackManager+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "KTTrackManager+Private.m"; path = "Classes/objC/KTTrackManager+Private.m"; sourceTree = "<group>"; };
+		54987DFD2112112500B3FC54 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Classes/swift/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54987DE32112080500B3FC54 /* libAdIdAccess.a in Frameworks */,
-				54987DE42112080500B3FC54 /* libGoogleAnalyticsServices.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,8 +73,8 @@
 			children = (
 				54987DD32112080500B3FC54 /* Libraries */,
 				54987DC22111FC0400B3FC54 /* Logger */,
-				54987DB02111FBE900B3FC54 /* AppDelegate.swift */,
-				54987DB22111FBE900B3FC54 /* ViewController.swift */,
+				54987DEC2112110600B3FC54 /* AppDelegate.swift */,
+				54987DFD2112112500B3FC54 /* ViewController.swift */,
 				54987DC52111FC7A00B3FC54 /* KTLogger-Bridging-Header.h */,
 				54987DB42111FBE900B3FC54 /* Main.storyboard */,
 				54987DB72111FBE900B3FC54 /* Assets.xcassets */,
@@ -105,7 +87,7 @@
 		54987DC22111FC0400B3FC54 /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				54987DD12112040F00B3FC54 /* KTEventHeader.h */,
+				54987DEB211210EE00B3FC54 /* KTEventHeader.h */,
 				54987DE62112085B00B3FC54 /* ObjC */,
 				54987DE52112085000B3FC54 /* Swift */,
 			);
@@ -115,37 +97,16 @@
 		54987DD32112080500B3FC54 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				54987DD42112080500B3FC54 /* GoogleAnalytics */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		54987DD42112080500B3FC54 /* GoogleAnalytics */ = {
-			isa = PBXGroup;
-			children = (
-				54987DD52112080500B3FC54 /* Changelog.txt */,
-				54987DD62112080500B3FC54 /* GAI.h */,
-				54987DD72112080500B3FC54 /* GAIDictionaryBuilder.h */,
-				54987DD82112080500B3FC54 /* GAIEcommerceFields.h */,
-				54987DD92112080500B3FC54 /* GAIEcommerceProduct.h */,
-				54987DDA2112080500B3FC54 /* GAIEcommerceProductAction.h */,
-				54987DDB2112080500B3FC54 /* GAIEcommercePromotion.h */,
-				54987DDC2112080500B3FC54 /* GAIFields.h */,
-				54987DDD2112080500B3FC54 /* GAILogger.h */,
-				54987DDE2112080500B3FC54 /* GAITrackedViewController.h */,
-				54987DDF2112080500B3FC54 /* GAITracker.h */,
-				54987DE02112080500B3FC54 /* libAdIdAccess.a */,
-				54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */,
-			);
-			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 		54987DE52112085000B3FC54 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				54987DC32111FC2100B3FC54 /* KTLogger.swift */,
-				54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */,
-				54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */,
+				54987DED2112110600B3FC54 /* KTLogger.swift */,
+				54987DEE2112110600B3FC54 /* KTTrackGAEvent.swift */,
+				54987DEF2112110600B3FC54 /* KTTrackMixpanelEvent.swift */,
 			);
 			name = Swift;
 			sourceTree = "<group>";
@@ -153,12 +114,12 @@
 		54987DE62112085B00B3FC54 /* ObjC */ = {
 			isa = PBXGroup;
 			children = (
-				54987DC62111FC7A00B3FC54 /* KTTrackManager.h */,
-				54987DC72111FC7A00B3FC54 /* KTTrackManager.m */,
-				54987DC92111FCD200B3FC54 /* KTTrackManager+Private.h */,
-				54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */,
-				54987DCE211202E800B3FC54 /* KTLogger.h */,
-				54987DCF211202E800B3FC54 /* KTLogger.m */,
+				54987DF42112110D00B3FC54 /* KTLogger.h */,
+				54987DF52112110D00B3FC54 /* KTLogger.m */,
+				54987DF62112110D00B3FC54 /* KTTrackManager.h */,
+				54987DF72112110D00B3FC54 /* KTTrackManager.m */,
+				54987DF82112110D00B3FC54 /* KTTrackManager+Private.h */,
+				54987DF92112110D00B3FC54 /* KTTrackManager+Private.m */,
 			);
 			name = ObjC;
 			sourceTree = "<group>";
@@ -226,7 +187,6 @@
 				54987DBB2111FBE900B3FC54 /* LaunchScreen.storyboard in Resources */,
 				54987DB82111FBE900B3FC54 /* Assets.xcassets in Resources */,
 				54987DB62111FBE900B3FC54 /* Main.storyboard in Resources */,
-				54987DE22112080500B3FC54 /* Changelog.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,14 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54987DC42111FC2100B3FC54 /* KTLogger.swift in Sources */,
-				54987DEA21120B2300B3FC54 /* KTTrackMixpanelEvent.swift in Sources */,
-				54987DB32111FBE900B3FC54 /* ViewController.swift in Sources */,
-				54987DD0211202E800B3FC54 /* KTLogger.m in Sources */,
-				54987DC82111FC7A00B3FC54 /* KTTrackManager.m in Sources */,
-				54987DE821120B0000B3FC54 /* KTTrackGAEvent.swift in Sources */,
-				54987DCB2111FCD200B3FC54 /* KTTrackManager+Private.m in Sources */,
-				54987DB12111FBE900B3FC54 /* AppDelegate.swift in Sources */,
+				54987DFA2112110D00B3FC54 /* KTLogger.m in Sources */,
+				54987DF02112110600B3FC54 /* AppDelegate.swift in Sources */,
+				54987DF32112110600B3FC54 /* KTTrackMixpanelEvent.swift in Sources */,
+				54987DF12112110600B3FC54 /* KTLogger.swift in Sources */,
+				54987DFB2112110D00B3FC54 /* KTTrackManager.m in Sources */,
+				54987DFC2112110D00B3FC54 /* KTTrackManager+Private.m in Sources */,
+				54987DFE2112112500B3FC54 /* ViewController.swift in Sources */,
+				54987DF22112110600B3FC54 /* KTTrackGAEvent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +379,7 @@
 				54987DC12111FBE900B3FC54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
