@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54987DB12111FBE900B3FC54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DB02111FBE900B3FC54 /* AppDelegate.swift */; };
+		54987DB32111FBE900B3FC54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DB22111FBE900B3FC54 /* ViewController.swift */; };
+		54987DB62111FBE900B3FC54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB42111FBE900B3FC54 /* Main.storyboard */; };
+		54987DB82111FBE900B3FC54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB72111FBE900B3FC54 /* Assets.xcassets */; };
+		54987DBB2111FBE900B3FC54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54987DB92111FBE900B3FC54 /* LaunchScreen.storyboard */; };
+		54987DC42111FC2100B3FC54 /* KTLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DC32111FC2100B3FC54 /* KTLogger.swift */; };
+		54987DC82111FC7A00B3FC54 /* KTTrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DC72111FC7A00B3FC54 /* KTTrackManager.m */; };
+		54987DCB2111FCD200B3FC54 /* KTTrackManager+Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */; };
+		54987DD0211202E800B3FC54 /* KTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 54987DCF211202E800B3FC54 /* KTLogger.m */; };
+		54987DE22112080500B3FC54 /* Changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = 54987DD52112080500B3FC54 /* Changelog.txt */; };
+		54987DE32112080500B3FC54 /* libAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987DE02112080500B3FC54 /* libAdIdAccess.a */; };
+		54987DE42112080500B3FC54 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */; };
+		54987DE821120B0000B3FC54 /* KTTrackGAEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */; };
+		54987DEA21120B2300B3FC54 /* KTTrackMixpanelEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54987DAD2111FBE900B3FC54 /* KTLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KTLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54987DB02111FBE900B3FC54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54987DB22111FBE900B3FC54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54987DB52111FBE900B3FC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54987DB72111FBE900B3FC54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54987DBA2111FBE900B3FC54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54987DBC2111FBE900B3FC54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54987DC32111FC2100B3FC54 /* KTLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTLogger.swift; sourceTree = "<group>"; };
+		54987DC52111FC7A00B3FC54 /* KTLogger-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KTLogger-Bridging-Header.h"; sourceTree = "<group>"; };
+		54987DC62111FC7A00B3FC54 /* KTTrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTTrackManager.h; sourceTree = "<group>"; };
+		54987DC72111FC7A00B3FC54 /* KTTrackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTTrackManager.m; sourceTree = "<group>"; };
+		54987DC92111FCD200B3FC54 /* KTTrackManager+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KTTrackManager+Private.h"; sourceTree = "<group>"; };
+		54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KTTrackManager+Private.m"; sourceTree = "<group>"; };
+		54987DCE211202E800B3FC54 /* KTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTLogger.h; sourceTree = "<group>"; };
+		54987DCF211202E800B3FC54 /* KTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTLogger.m; sourceTree = "<group>"; };
+		54987DD12112040F00B3FC54 /* KTEventHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTEventHeader.h; sourceTree = "<group>"; };
+		54987DD52112080500B3FC54 /* Changelog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Changelog.txt; sourceTree = "<group>"; };
+		54987DD62112080500B3FC54 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		54987DD72112080500B3FC54 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		54987DD82112080500B3FC54 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		54987DD92112080500B3FC54 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		54987DDA2112080500B3FC54 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		54987DDB2112080500B3FC54 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		54987DDC2112080500B3FC54 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		54987DDD2112080500B3FC54 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		54987DDE2112080500B3FC54 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		54987DDF2112080500B3FC54 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		54987DE02112080500B3FC54 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccess.a; sourceTree = "<group>"; };
+		54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTTrackGAEvent.swift; sourceTree = "<group>"; };
+		54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTTrackMixpanelEvent.swift; path = Classes/KTTrackMixpanelEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54987DAA2111FBE900B3FC54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54987DE32112080500B3FC54 /* libAdIdAccess.a in Frameworks */,
+				54987DE42112080500B3FC54 /* libGoogleAnalyticsServices.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54987DA42111FBE900B3FC54 = {
+			isa = PBXGroup;
+			children = (
+				54987DAF2111FBE900B3FC54 /* KTLogger */,
+				54987DAE2111FBE900B3FC54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54987DAE2111FBE900B3FC54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54987DAD2111FBE900B3FC54 /* KTLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54987DAF2111FBE900B3FC54 /* KTLogger */ = {
+			isa = PBXGroup;
+			children = (
+				54987DD32112080500B3FC54 /* Libraries */,
+				54987DC22111FC0400B3FC54 /* Logger */,
+				54987DB02111FBE900B3FC54 /* AppDelegate.swift */,
+				54987DB22111FBE900B3FC54 /* ViewController.swift */,
+				54987DC52111FC7A00B3FC54 /* KTLogger-Bridging-Header.h */,
+				54987DB42111FBE900B3FC54 /* Main.storyboard */,
+				54987DB72111FBE900B3FC54 /* Assets.xcassets */,
+				54987DB92111FBE900B3FC54 /* LaunchScreen.storyboard */,
+				54987DBC2111FBE900B3FC54 /* Info.plist */,
+			);
+			path = KTLogger;
+			sourceTree = "<group>";
+		};
+		54987DC22111FC0400B3FC54 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				54987DD12112040F00B3FC54 /* KTEventHeader.h */,
+				54987DE62112085B00B3FC54 /* ObjC */,
+				54987DE52112085000B3FC54 /* Swift */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		54987DD32112080500B3FC54 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				54987DD42112080500B3FC54 /* GoogleAnalytics */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		54987DD42112080500B3FC54 /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				54987DD52112080500B3FC54 /* Changelog.txt */,
+				54987DD62112080500B3FC54 /* GAI.h */,
+				54987DD72112080500B3FC54 /* GAIDictionaryBuilder.h */,
+				54987DD82112080500B3FC54 /* GAIEcommerceFields.h */,
+				54987DD92112080500B3FC54 /* GAIEcommerceProduct.h */,
+				54987DDA2112080500B3FC54 /* GAIEcommerceProductAction.h */,
+				54987DDB2112080500B3FC54 /* GAIEcommercePromotion.h */,
+				54987DDC2112080500B3FC54 /* GAIFields.h */,
+				54987DDD2112080500B3FC54 /* GAILogger.h */,
+				54987DDE2112080500B3FC54 /* GAITrackedViewController.h */,
+				54987DDF2112080500B3FC54 /* GAITracker.h */,
+				54987DE02112080500B3FC54 /* libAdIdAccess.a */,
+				54987DE12112080500B3FC54 /* libGoogleAnalyticsServices.a */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		54987DE52112085000B3FC54 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				54987DC32111FC2100B3FC54 /* KTLogger.swift */,
+				54987DE721120B0000B3FC54 /* KTTrackGAEvent.swift */,
+				54987DE921120B2300B3FC54 /* KTTrackMixpanelEvent.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		54987DE62112085B00B3FC54 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				54987DC62111FC7A00B3FC54 /* KTTrackManager.h */,
+				54987DC72111FC7A00B3FC54 /* KTTrackManager.m */,
+				54987DC92111FCD200B3FC54 /* KTTrackManager+Private.h */,
+				54987DCA2111FCD200B3FC54 /* KTTrackManager+Private.m */,
+				54987DCE211202E800B3FC54 /* KTLogger.h */,
+				54987DCF211202E800B3FC54 /* KTLogger.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54987DAC2111FBE900B3FC54 /* KTLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54987DBF2111FBE900B3FC54 /* Build configuration list for PBXNativeTarget "KTLogger" */;
+			buildPhases = (
+				54987DA92111FBE900B3FC54 /* Sources */,
+				54987DAA2111FBE900B3FC54 /* Frameworks */,
+				54987DAB2111FBE900B3FC54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KTLogger;
+			productName = KTLogger;
+			productReference = 54987DAD2111FBE900B3FC54 /* KTLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54987DA52111FBE900B3FC54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = com.kt;
+				TargetAttributes = {
+					54987DAC2111FBE900B3FC54 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 54987DA82111FBE900B3FC54 /* Build configuration list for PBXProject "KTLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54987DA42111FBE900B3FC54;
+			productRefGroup = 54987DAE2111FBE900B3FC54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54987DAC2111FBE900B3FC54 /* KTLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54987DAB2111FBE900B3FC54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54987DBB2111FBE900B3FC54 /* LaunchScreen.storyboard in Resources */,
+				54987DB82111FBE900B3FC54 /* Assets.xcassets in Resources */,
+				54987DB62111FBE900B3FC54 /* Main.storyboard in Resources */,
+				54987DE22112080500B3FC54 /* Changelog.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54987DA92111FBE900B3FC54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54987DC42111FC2100B3FC54 /* KTLogger.swift in Sources */,
+				54987DEA21120B2300B3FC54 /* KTTrackMixpanelEvent.swift in Sources */,
+				54987DB32111FBE900B3FC54 /* ViewController.swift in Sources */,
+				54987DD0211202E800B3FC54 /* KTLogger.m in Sources */,
+				54987DC82111FC7A00B3FC54 /* KTTrackManager.m in Sources */,
+				54987DE821120B0000B3FC54 /* KTTrackGAEvent.swift in Sources */,
+				54987DCB2111FCD200B3FC54 /* KTTrackManager+Private.m in Sources */,
+				54987DB12111FBE900B3FC54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54987DB42111FBE900B3FC54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54987DB52111FBE900B3FC54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54987DB92111FBE900B3FC54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54987DBA2111FBE900B3FC54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54987DBD2111FBE900B3FC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54987DBE2111FBE900B3FC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54987DC02111FBE900B3FC54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KTLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTLogger/Libraries/GoogleAnalytics",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ktjeffery.KTLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTLogger/KTLogger-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		54987DC12111FBE900B3FC54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = KTLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KTLogger/Libraries/GoogleAnalytics",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ktjeffery.KTLogger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KTLogger/KTLogger-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54987DA82111FBE900B3FC54 /* Build configuration list for PBXProject "KTLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54987DBD2111FBE900B3FC54 /* Debug */,
+				54987DBE2111FBE900B3FC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54987DBF2111FBE900B3FC54 /* Build configuration list for PBXNativeTarget "KTLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54987DC02111FBE900B3FC54 /* Debug */,
+				54987DC12111FBE900B3FC54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54987DA52111FBE900B3FC54 /* Project object */;
+}
